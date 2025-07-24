@@ -1,5 +1,17 @@
 # Preface {.unnumbered}
 
-This is "The Dictionary Maker" by Bude Piccin Sethaputra.
+In 1933, So Sethaputra was Thailand's youngest Royal Spokesman, a brilliant Oxford-educated intellectual at the pinnacle of Siamese society. By 1934, he was Prisoner Number 26 in Bang Kwang prison, condemned as an enemy of the state following the revolutionary government's consolidation of power. What happened next defies belief.
+
+During eleven years of imprisonment—first in Bangkok's notorious Bang Kwang prison, then on the remote islands of Tarutao and Koh Tao—So accomplished something extraordinary. Working in secret, often by candlelight, he created Thailand's first comprehensive English-Thai dictionary. This wasn't merely a translation tool but a cultural bridge that would educate generations of Thai students and remain influential decades after its 1949 publication.
+
+*The Dictionary Maker* tells the untold story of intellectual resistance against authoritarianism, revealing how one man's commitment to education and cross-cultural understanding transcended political persecution. Drawing from family archives and historical records, this account illuminates a crucial period in Thai history when Western-educated elites faced systematic persecution, yet some found ways to contribute to their nation's cultural development despite imprisonment.
+
+As So's granddaughter, I felt compelled to share this remarkable story of resilience, scholarship, and the transformative power of education. In our current era of political upheaval and cultural division, So Sethaputra's example reminds us that intellectual dedication can triumph over oppression, and that knowledge, once created, becomes an indestructible gift to future generations.
+
+— Bude Sethaputra-Piccin
+
+::: {.callout-note}
+## About This Book
 
 This book was created using the Proofbound CC Template CLI tool. To learn more about Proofbound visit <https://proofbound.com>.
+:::
