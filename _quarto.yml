@@ -7,6 +7,7 @@ book:
   title: "The Dictionary Maker"
   author: "Bude Piccin Sethaputra"
   date: "2025-07-24"
+  cover-image: "assets/images/DictionaryMakerCover.jpeg"
   search: true
   downloads: [pdf, epub]
   chapters:

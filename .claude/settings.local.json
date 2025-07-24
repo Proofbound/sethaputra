@@ -4,7 +4,8 @@
       "Bash(git init:*)",
       "Bash(gh repo create:*)",
       "Bash(git push:*)",
-      "Bash(quarto:*)"
+      "Bash(quarto:*)",
+      "Bash(find:*)"
     ],
     "deny": []
   }

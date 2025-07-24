@@ -2,4 +2,4 @@
 
 This is "The Dictionary Maker" by Bude Piccin Sethaputra.
 
-This book was created using the CC Template CLI tool. To learn more about Quarto books visit <https://quarto.org/docs/books>.
+This book was created using the Proofbound CC Template CLI tool. To learn more about Proofbound visit <https://proofbound.com>.
