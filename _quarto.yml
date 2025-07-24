@@ -1,6 +1,7 @@
 project:
   type: book
   title: "The Dictionary Maker"
+  output-dir: docs
 
 book:
   title: "The Dictionary Maker"
