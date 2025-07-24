@@ -1,0 +1,22 @@
+# CC Template Configuration
+# This file defines variables used in template processing
+
+# Basic book metadata
+title: "The Dictionary Maker"
+subtitle: "A Political Prisoner's Gift to Thailand"
+author: "Bude Piccin Sethaputra"
+date: "2025-07-24"
+
+# Website and publishing settings
+page_footer: "Copyright 2025 Bude Piccin"
+site_url: "https://ensembio.github.io/sethaputra/"
+
+# Additional variables you can add:
+description: "In 1939, So Sethaputra—former Royal Spokesman and mining engineer—arrived at Thailand's most remote prison carrying only a battered Oxford Dictionary and an unfinished manuscript. Condemned as a political prisoner after opposing the 1932 military coup that ended absolute monarchy, he would spend the next eleven years behind bars. But instead of breaking him, imprisonment became his greatest opportunity. Working in secret from his cell, So embarked on an extraordinary project: creating Thailand's first comprehensive English-Thai dictionary written by a Thai for Thai students. As bombs fell on Bangkok and Japanese forces occupied the country, So continued his 'life's work' through transfers between prison islands, surviving starvation, disease, and the collapse of the world he had known. His mother smuggled thousands of manuscript pages past guards using hidden compartments in thermos flasks, while subscribers across the country eagerly awaited each weekly installment of his groundbreaking dictionary. Set against the dramatic backdrop of Thailand's transformation from traditional Siam to modern nation-state, this is the remarkable true story of intellectual courage under impossible circumstances. So Sethaputra represents the last generation of the old Siamese elite—Western-educated royalists who witnessed their world disappear in revolution, war, and social upheaval. His dictionary became more than a reference work; it was a bridge between cultures and a testament to the power of knowledge to transcend political persecution. A story of resilience, family devotion, and the belief that education can survive any tyranny."
+# version: "1.0.0"
+# publisher: "Publisher Name"
+# isbn: "978-0000000000"
+# keywords: ["keyword1", "keyword2"]
+
+# Custom variables for your templates
+# my_custom_variable: "custom value"

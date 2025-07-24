@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "The Dictionary Maker",
+    "section": "",
+    "text": "Preface\nThis is “The Dictionary Maker” by Bude Piccin Sethaputra.\nThis book was created using the CC Template CLI tool. To learn more about Quarto books visit https://quarto.org/docs/books.\n\n\n\n\nKnuth, Donald E. 1984. The TeXbook. Addison-Wesley.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "1.1 Chapter Overview\nThis is “The Dictionary Maker” created on 2025-07-24.\nYou can add your content here.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#chapter-overview",
+    "href": "intro.html#chapter-overview",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. The TeXbook. Addison-Wesley.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has been created using the cc-template tool.\n\n\n\n\nKnuth, Donald E. 1984. The TeXbook. Addison-Wesley.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. The TeXbook. Addison-Wesley.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
