@@ -43,13 +43,13 @@ Click a cover to view the book in your preferred language:
 <div class="language-choice">
 <div>
 <a href="en/">
-<img src="DictionaryMakerCover.jpeg" alt="English Cover">
+<img src="cover.jpeg" alt="English Cover">
 </a>
 <div class="language-caption">🇺🇸 English</div>
 </div>
 <div>
 <a href="th/">
-<img src="DictionaryMakerCover.jpeg" alt="Thai Cover">
+<img src="cover.jpeg" alt="Thai Cover">
 </a>
 <div class="language-caption">🇹🇭 ภาษาไทย</div>
 </div>
