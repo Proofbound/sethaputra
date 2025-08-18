@@ -1,0 +1,58 @@
+project:
+  type: book
+  title: "พจนานุกรมผู้สร้าง"
+  output-dir: ../docs/th
+
+book:
+  title: "พจนานุกรมผู้สร้าง"
+  author: "บุเด เสถบุตร-ปิคซิน"
+  date: "2025-07-24"
+  cover-image: "_resources/assets/images/DictionaryMakerCover.jpeg"
+  search: true
+  downloads: [pdf, epub]
+  chapters:
+    - index.qmd
+    - CH01-The_Last_Siamese.th.qmd
+    - CH02-Siam_in_Transition.th.qmd
+    - CH03-The_Elite_Under_Threat.th.qmd
+    - CH04-The_Coup_and_Its_Aftermath.th.qmd
+    - CH05-Prison_University.th.qmd
+    - CH06-The_Dictionary_Project_Begins.th.qmd
+    - CH07-Rising_Storm.th.qmd
+    - CH08-Tarutao_Exile.th.qmd
+    - CH09-War_Comes_to_Siam.th.qmd
+    - CH10-Survival_and_Perseverance.th.qmd
+    - CH11-Liberation_and_Legacy.th.qmd
+    - CH12-The_Dictionary_Makers_Gift.th.qmd
+    - references.qmd
+
+bibliography: references.bib
+nocite: '@*'
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    page-footer: "ลิขสิทธิ์ 2025 บุเด เสถบุตร-ปิคซิน"
+    site-url: "https://ensembio.github.io/sethaputra/"
+  pdf:
+    papersize: "Letter"
+    mainfont: "TH Sarabun New"  # Thai font for main text
+    CJKmainfont: "TH Sarabun New"
+    toc: true
+    documentclass: scrbook
+    geometry: paperwidth=6in,paperheight=9in
+    standalone: true
+    toc-depth: 2  
+    keep-tex: true
+    include-in-header:
+      - text: |
+          \usepackage{xeCJK}
+          \usepackage{fontspec}
+          \setmainfont{TH Sarabun New}
+          \setCJKmainfont{TH Sarabun New}
+    header-includes:
+      - \raggedbottom
+  epub:
+    toc: true
+    cover-image: "_resources/assets/images/DictionaryMakerCover.jpeg"

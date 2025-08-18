@@ -5,7 +5,14 @@
       "Bash(gh repo create:*)",
       "Bash(git push:*)",
       "Bash(quarto:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(mkdir:*)",
+      "Bash(mv:*)",
+      "Bash(ln:*)",
+      "Bash(cp:*)",
+      "Bash(for:*)",
+      "Bash(do mv \"$file\" \"$file%.qmd.th.qmd\")",
+      "Bash(done)"
     ],
     "deny": []
   }

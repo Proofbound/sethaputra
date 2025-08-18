@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>The Dictionary Maker – Select Language – The Dictionary Maker</title>
+<title>claude – The Dictionary Maker</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -70,86 +105,84 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="quarto-light">
+<body class="fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">The Dictionary Maker – Select Language</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta column-page">
 
-    
-  
-    
-  </div>
-  
+<section id="claude.md" class="level1">
+<h1>CLAUDE.md</h1>
+<p>This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.</p>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>This is a Quarto book project about “The Dictionary Maker” by Bude Piccin Sethaputra. The book tells the story of So Sethaputra, a Thai political prisoner who created Thailand’s first comprehensive English-Thai dictionary while imprisoned from 1939-1950.</p>
+</section>
+<section id="architecture" class="level2">
+<h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
+<p>The project uses Quarto to generate both HTML and PDF versions of the book from Markdown source files:</p>
+<ul>
+<li><strong>Source files</strong>: <code>.qmd</code> files containing Quarto Markdown content in <code>/en</code> (English) and <code>/th</code> (Thai) directories</li>
+<li><strong>Configuration</strong>: <code>_quarto.yml</code> files define project structure, output formats, and book metadata</li>
+<li><strong>Template variables</strong>: <code>cc-config.yml</code> contains additional metadata used by CC Template CLI tool</li>
+<li><strong>Bibliography</strong>: <code>references.bib</code> contains citation data referenced throughout the book</li>
+<li><strong>Generated outputs</strong>: <code>docs/</code> directory contains rendered HTML and PDF files</li>
+</ul>
+<p>The book is structured with the following chapters (as defined in <code>en/_quarto.yml</code>): - <code>index.qmd</code> - Preface - <code>CH01-The_Last_Siamese.qmd</code> - Chapter 1: The Last Siamese - <code>CH02-Siam_in_Transition.qmd</code> - Chapter 2: Siam in Transition - <code>CH03-The_Elite_Under_Threat.qmd</code> - Chapter 3: The Elite Under Threat - <code>CH04-The_Coup_and_Its_Aftermath.qmd</code> - Chapter 4: The Coup and Its Aftermath - <code>CH05-Prison_University.qmd</code> - Chapter 5: Prison University - <code>CH06-The_Dictionary_Project_Begins.qmd</code> - Chapter 6: The Dictionary Project Begins - <code>CH07-Rising_Storm.qmd</code> - Chapter 7: Rising Storm - <code>CH08-Tarutao_Exile.qmd</code> - Chapter 8: Tarutao Exile - <code>CH09-War_Comes_to_Siam.qmd</code> - Chapter 9: War Comes to Siam - <code>CH10-Survival_and_Perseverance.qmd</code> - Chapter 10: Survival and Perseverance - <code>CH11-Liberation_and_Legacy.qmd</code> - Chapter 11: Liberation and Legacy - <code>CH12-The_Dictionary_Makers_Gift.qmd</code> - Chapter 12: The Dictionary Maker’s Gift - <code>references.qmd</code> - References section</p>
+</section>
+<section id="common-commands" class="level2">
+<h2 class="anchored" data-anchor-id="common-commands">Common Commands</h2>
+<section id="build-the-book" class="level3">
+<h3 class="anchored" data-anchor-id="build-the-book">Build the book</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="preview-the-book-during-development" class="level3">
+<h3 class="anchored" data-anchor-id="preview-the-book-during-development">Preview the book during development</h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="build-specific-format" class="level3">
+<h3 class="anchored" data-anchor-id="build-specific-format">Build specific format</h3>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render <span class="at">--to</span> html</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render <span class="at">--to</span> pdf</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="clean-build-artifacts" class="level3">
+<h3 class="anchored" data-anchor-id="clean-build-artifacts">Clean build artifacts</h3>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> clean</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="content-development" class="level2">
+<h2 class="anchored" data-anchor-id="content-development">Content Development</h2>
+<ul>
+<li>Book content is written in Quarto Markdown (<code>.qmd</code> files) in both English (<code>/en</code>) and Thai (<code>/th</code>) versions</li>
+<li>Citations reference entries in <code>references.bib</code> using standard BibTeX format</li>
+<li>The <code>prompts/</code> directory contains outline generation templates for AI-assisted content creation</li>
+<li>PDF output supports CJK fonts (Chinese, Japanese, Korean) via XeLaTeX and the STSong font</li>
+<li>HTML output uses the Cosmo theme with search functionality enabled</li>
+</ul>
+</section>
+<section id="author-review-tools" class="level2">
+<h2 class="anchored" data-anchor-id="author-review-tools">Author Review Tools</h2>
+<section id="generate-concatenated-file-for-author-edits" class="level3">
+<h3 class="anchored" data-anchor-id="generate-concatenated-file-for-author-edits">Generate concatenated file for author edits</h3>
+<p>A script is available to create a single file containing all chapters for author review:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">./concatenate_book.sh</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This creates <code>dictionary-maker-all.md</code> with all <code>.qmd</code> files from <code>/en</code> concatenated in the correct order with clear section headers for easy parsing.</p>
+</section>
+</section>
+<section id="publishing" class="level2">
+<h2 class="anchored" data-anchor-id="publishing">Publishing</h2>
+<p>The book is configured to publish to GitHub Pages at <code>https://proofbound.github.io/sethaputra/</code> with both HTML and downloadable PDF/EPUB formats available.</p>
 
 
-</header>
-
-
-<style>
-.language-choice {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 2rem;
-}
-
-.language-choice img {
-  width: 200px;
-  max-width: 80%;
-  border: 2px solid transparent;
-  border-radius: 10px;
-  transition: transform 0.2s ease, border 0.2s ease;
-  cursor: pointer;
-}
-
-.language-choice img:hover {
-  transform: scale(1.05);
-  border-color: #888;
-}
-
-.language-caption {
-  text-align: center;
-  margin-top: 0.5rem;
-  font-size: 1.1rem;
-}
-</style>
-<section id="choose-your-language-เลอกภาษา" class="level1">
-<h1>🌐 Choose Your Language / เลือกภาษา</h1>
-<p>Click a cover to view the book in your preferred language:</p>
-<div class="language-choice">
-<div>
-<a href="en/"> <img src="en/_resources/assets/images/DictionaryMakerCover.jpeg" alt="English Cover"> </a>
-<div class="language-caption">
-🇺🇸 English
-</div>
-</div>
-<div>
-<a href="th/"> <img src="th/_resources/assets/images/DictionaryMakerCover.jpeg" alt="Thai Cover"> </a>
-<div class="language-caption">
-🇹🇭 ภาษาไทย
-</div>
-</div>
-</div>
-
-
+</section>
 </section>
 
 </main> <!-- /main -->
