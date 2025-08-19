@@ -4,7 +4,7 @@
 
 Faced with a life sentence and his students' need for English translation, So Sethaputra embarked on what he called his "Life's Work" - creating Thailand's first comprehensive English-Thai dictionary written by a Thai for Thai students.
 
-![A sample page from So Sethaputra's "New Model English-Siamese Dictionary," showing his innovative approach of using vivid example sentences drawn from current affairs, personal experience, and Thai cultural context to illuminate English word meanings for Thai students.](../_resources/assets/images/ch6-dictionarysample.jpeg)
+![A sample page from So Sethaputra's "New Model English-Siamese Dictionary," showing his innovative approach of using vivid example sentences drawn from current affairs, personal experience, and Thai cultural context to illuminate English word meanings for Thai students.](../assets/images/ch6-dictionarysample.jpeg)
 
 The question that kept So Sethaputra awake during his first weeks in Bang Kwang prison was deceptively simple yet overwhelmingly complex: "How does one even begin to write a dictionary in prison?" The more he contemplated the practical challenges involved, the more impossible the task seemed. Yet it was precisely this impossibility that made the project so compelling. If he could succeed in creating a comprehensive English-Thai dictionary under such circumstances, he would demonstrate that intellectual achievement could transcend any form of political persecution.
 
