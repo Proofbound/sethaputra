@@ -12,7 +12,10 @@
       "Bash(cp:*)",
       "Bash(for:*)",
       "Bash(do mv \"$file\" \"$file%.qmd.th.qmd\")",
-      "Bash(done)"
+      "Bash(done)",
+      "Bash(git add:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)"
     ],
     "deny": []
   }
