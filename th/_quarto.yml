@@ -9,7 +9,7 @@ book:
   date: "2025-07-24"
   cover-image: "../_resources/assets/images/DictionaryMakerCover.jpeg"
   search: true
-  downloads: [pdf, epub]
+  downloads: [pdf, epub, docx]
   chapters:
     - index.qmd
     - CH01-The_Last_Siamese.th.qmd
@@ -56,3 +56,5 @@ format:
   epub:
     toc: true
     cover-image: "../_resources/assets/images/DictionaryMakerCover.jpeg"
+  docx:
+    toc: true
